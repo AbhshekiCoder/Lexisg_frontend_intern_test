@@ -32,7 +32,7 @@ export const InputArea = ({ value, onChange, onSubmit, isLoading }) => {
     <div className="w-full px-4 pt-2 pb-4 bg-white border-t border-gray-200">
       <form onSubmit={handleSubmit} className="relative flex items-center">
         {/* Left side icons */}
-        <div className="absolute left-3 flex space-x-2 mt-9">
+        <div className="absolute left-3 flex space-x-2 ">
           <button 
             type="button" 
             className="p-1 text-gray-500 hover:text-gray-700 rounded-full hover:bg-gray-100"
@@ -59,12 +59,12 @@ export const InputArea = ({ value, onChange, onSubmit, isLoading }) => {
           onCompositionEnd={() => setIsComposing(false)}
           placeholder="Message Legal Assistant..."
           rows="1"
-          className="w-full pl-6 pr-16 py-3 pb-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1a365d] focus:border-transparent resize-none overflow-hidden"
-          style={{ minHeight: '70px', maxHeight: '200px' }}
+          className="w-full pl-20 pr-12 py-3  border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1a365d] focus:border-transparent resize-none overflow-hidden"
+          style={{ minHeight: '52px', maxHeight: '200px' }}
         />
 
         {/* Right side icons */}
-        <div className="absolute right-3 flex space-x-1 mt-9 ">
+        <div className="absolute right-3 flex space-x-1  ">
           {value.trim() ? (
             <button
               type="submit"
