@@ -32,7 +32,7 @@ This is consistent with the principles laid down by the Supreme Court in Pranay 
         {
           text: "as the age of the deceased at the time of accident was held to be about 54–55 years, being self-employed, 10% of annual income should have been awarded on account of future prospects.",
           source: "Dani Devi v. Pritam Singh",
-          link: "#",
+          link: "https://lexisingapore-my.sharepoint.com/:b:/g/personal/harshit_lexi_sg/EdOegeiR_gdBvQxdyW4xE6oBCDgj5E4Bo5wjvhPHpqgIuQ?e=TEu4vz",
           paragraph: "Para 7"
         }
       ]
