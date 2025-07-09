@@ -14,7 +14,7 @@ export default function App() {
     return {
       answer:  `Yes, in a motor accident claim under Section 166 of the Motor Vehicles Act, 1988, where the deceased was self-employed and aged 54–55 years at the time of death, the claimant is entitled to an addition towards future prospects.
 
-${<h1>Legal Position</h1>}:
+Legal Position
 
 The Punjab and Haryana High Court, in Dani Devi v. Pritam Singh (FAO No. 4353 of 2012, decided on 13.09.2022), held that:
 
@@ -67,7 +67,7 @@ This is consistent with the principles laid down by the Supreme Court in Pranay 
   }, 1000);
 };
 
-// In your render:
+
 
   const handleExampleClick = () => {
     setQuery(exampleQuery);
